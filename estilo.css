@@ -1,0 +1,275 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-size: 100%;
+  background-size: 100%;
+  background-image: url(imagens/noite-estrelada.jpg);
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+}
+
+textarea{
+  resize: none;
+}
+
+nav {
+  background-color: black;
+  padding: 15px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+  font-size: 20px;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+  font-size: 23px;
+  color: rgb(40, 58, 139);
+  transition: all 0.2s;
+}
+
+hr {
+  margin-top: 20px;
+}
+
+#rodape {
+  background-color: black;
+  padding: 20px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+#rodape h5 {
+  margin: 0;
+  font-size: 15px;
+  color: white;
+  text-align: center;
+}
+
+#rodape2 {
+  background-color: black;
+  padding: 20px;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  margin-right: 100%;
+  margin-bottom: 0%;
+}
+
+#rodape2 h5 {
+  margin: 0;
+  font-size: 15px;
+  color: white;
+  text-align: center;
+}
+
+#rodape2 img{
+  width: 45px;
+  height: 50px;
+}
+
+h1 {
+  font-size: 65px;
+  text-align: center;
+  color: white;
+  font-family: Georgia, serif;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #000000;
+}
+
+#inicio p {
+  font-size: 40px;
+  text-align: center;
+  color: white;
+  font-family: Georgia, serif;
+}
+
+#inicio {
+  text-align: center;
+}
+
+.semfundo {
+  background:rgb(187, 168, 48);
+}
+
+#texto{
+  margin-left: 10px;
+  text-align: left;
+  text-indent: 20px;
+  margin-right: 10px;
+  font-size: 20px;
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+#texto img{
+  width: 220px;
+  height: 260px;
+  padding-right: 25px;
+}
+
+img{
+  width: 150px;
+  height: 150px;
+}
+
+#galeria img{
+  -webkit-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+  width: 250px;
+  height: 300px;
+}
+#galeria img:hover {
+  -webkit-transform:scale(1.2);
+  transform:scale(1.2);
+}
+
+#obra1 {
+ border: 10px;
+ border-radius: 20px;
+ box-shadow: 10px 10px 20px black;
+ padding: 10px;
+}
+
+#obra1 img{
+  width: 160px;
+  height: 140px;
+}
+
+#obra2 {
+  border: 15px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 20px black;
+  padding: 45px;
+ }
+
+ #obra2 img{
+  width: 180px;
+  height: 150px;
+}
+
+ #obra3 {
+  border: 15px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 20px black;
+  padding: 35px;
+ }
+
+ #obra3 img{
+  width: 190px;
+  height: 240px;
+}
+
+ #obra4 {
+  border: 15px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 20px black;
+  padding: 10px;
+ }
+
+ #obra4 img{
+  width: 150px;
+  height: 170px;
+}
+
+ #seta{
+   background-color: rgb(187, 168, 48);
+   margin-right: 7%;
+   margin-left: 90%;
+   border-radius: 20px;
+   box-shadow: 1px 1px 10px rgb(187, 168, 48);
+   width: 50px;
+ }
+
+ h2 {
+  margin: 0;
+  font-size: 40px;
+  color: white;
+  text-align: center;
+}
+
+.item {
+  color: rgba(0, 0, 0, 0.718);
+  background-color: rgba(255, 255, 255, 0.699);
+  display: flex;
+  box-shadow: 3px 3px 9px #000000;
+  font-weight: bold;
+  font-size: 17px;
+
+}
+
+form {
+  margin: 1cm 12cm 2cm 12cm;
+  padding: 2cm 1cm 2cm 1cm;
+  background-color: rgb(187, 168, 48); ;
+  display: flex;
+  justify-content: center;
+  border-radius: 15px;
+  box-shadow: 10px 10px 20px 10px #0000008c;
+
+}
+
+.formulario {
+  display: inline;
+  font-size: 25px;
+  text-align: left;
+  font-family: 'Bahnschrift Condensed';
+  font-weight: bold;
+
+}
+
+.botao {
+  display: flex;
+  justify-content: center;
+}
+
+.enviar {
+  font-family: 'Bahnschrift Condensed';
+  background-color: rgba(0, 255, 13, 0.5);
+  width: 30%;
+  font-size: 26px;
+  margin: 1cm;
+  align-items: center;
+}
+
+.resetar {
+  font-family: 'Bahnschrift Condensed';
+  background-color: rgba(255, 0, 0, 0.5);
+  width: 30%;
+  margin: 1cm;
+  font-size: 26px;
+}
+
+input {
+  width: 15.5cm;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+textarea {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  resize: none;
+  border-radius: 10px;
+}
+ 
+

@@ -1,0 +1,79 @@
+<!Doctype html>
+<html>
+	<head>
+		<title>Formulário para contato</title>
+		<meta charset="utf-8">
+		<link rel="icon" type="image/jpg" href="imagens/contato.png">
+		<link rel="stylesheet" type="text/css" href="estilo.css">
+		<script type="text/javascript">
+			function validar(){
+				var nome = form1.nome.value;
+				var email = form1.email.value;
+				var telefone = form1.telefone.value;
+				var endereco = form1.endereco.value;
+
+				if(nome==""){
+					alert('Por favor, digite seu nome completo.');
+					form1.nome.focus();
+					return false;
+				}
+
+				if(email==""){
+					alert('Por favor, digite seu email completo.');
+					form1.email.focus();
+					return false;
+				}
+
+				if(telefone==""){
+					alert('Por favor, digite seu telefone completo.');
+					form1.telefone.focus();
+					return false;
+				}
+
+				if(endereco==""){
+					alert('Por favor, digite seu endereço completo.');
+					form1.endereco.focus();
+					return false;
+				}
+			}
+		</script>
+	</head>
+	</head>
+    <body>
+         <nav>
+			<ul>
+			  <li><a href="index.html">Home</a></li>
+			  <li><a href="historia.html">História</a></li>
+			  <li><a href="obras.html">Obras</a></li>
+			  <li><a href="galeria.html">Galeria</a></li>
+			  <li><a href="contato.html">Contato</a></li>
+			</ul>
+		 </nav>
+		<h1>Formulário para contato</h1>
+		<form name="form1" action="concluido.html" method="post">
+			<div class="formulario">
+				<hr color="#000000">
+				<h2>Entre em Contato Conosco</h2>
+				<hr color="#000000">
+				<br><br>
+				Nome <input class="item" type="text" name="nome">
+				<br><br>
+				Email <input class="item" type="email" name="email">
+				<br><br>
+				Telefone <input class="item" type="number" name="telefone" placeholder="Ex: 00 00000-0000">
+				<br><br>
+				Endereço <input class="item" type="text" name="endereco">
+				<br><br>
+				Observações<textarea class="item" cols="62" rows="6" name="comentario" placeholder="Assunto"></textarea>
+				<br>
+				<div class="botao">
+					<input class="enviar" type="submit" onclick="return validar()" value="Enviar">
+					<input class="resetar" type="reset" name="limpa" value="Limpar">
+				</div>
+			</div>
+		</form>
+             <div id="rodape">
+			  <h5>Murilo Martins 2023 - &copyTodos os direitos reservados</h5>
+			</div>
+	</body>
+</html>
